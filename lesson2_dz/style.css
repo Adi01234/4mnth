@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f9fafb;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.wrapper__section {
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper__line {
+    flex: 0 0 1px;
+    background-color: #e5e7eb;
+}
+
+
+#form {
+    width: 500px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    background: #fff;
+}
+
+#form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #111827;
+}
+
+#form input {
+    width: 80%;
+    height: 40px;
+    margin: 12px 0;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+#form button {
+    width: 60%;
+    height: 42px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.2s, transform 0.1s;
+}
+
+#form button:hover {
+    background-color: #2563eb;
+}
+
+#form button:active {
+    transform: scale(0.96);
+}
+
+
+.wrapper__box {
+    height: 400px;
+    width: 400px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    background: #f3f4f6;
+    position: relative;
+    overflow: hidden;
+}
+
+.box__block {
+    width: 80px;
+    height: 80px;
+    background-color: #3b82f6;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#timer {
+    font-size: 36px;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+.wrapper__section button {
+    margin: 0 6px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background: #3b82f6;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.wrapper__section button:hover {
+    background-color: #2563eb;
+}
+
+.wrapper__section button:active {
+    transform: scale(0.96);
+}
+
