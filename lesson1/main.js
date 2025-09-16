@@ -35,6 +35,7 @@ function moveRight() {
         block.style.left = `${pos}px`;
 
 
+
         requestAnimationFrame(moveRight);
     }
 }
@@ -44,5 +45,3 @@ block.addEventListener("click", () => {
     block.style.left = "0px";
     moveRight();
 });
-
-
