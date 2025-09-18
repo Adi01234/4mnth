@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "skills": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "title": "Ethical Hacker",
+    "skills": ["Networking", "Linux", "Python"]
+  },
+  {
+    "id": 3,
+    "title": "Designer",
+    "skills": ["Figma", "Photoshop", "Illustrator"]
+  }
+]

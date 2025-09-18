@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinema</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <div class="header__first">
+            <img src="icons/logo.png" alt="logo" class="logo" />
+            <input type="text" class="search" placeholder="Искать..." />
+          </div>
+          <ul class="sort">
+            <li><button>Новые</button></li>
+            <li><button>По рейтингу</button></li>
+            <li><button>По алфавиту</button></li>
+            <li><button>Скоро выйдет</button></li>
+            <li><a href="secon.html">Скоро выйдет</a></li>
+          </ul>
+        </div>
+      </header>
+      <section class="banner">
+        <div class="banner__wrapper">
+          <div class="container">
+            <button class="arrow arrow-prev">
+              <img src="icons/arrow.png" alt="arrow" />
+            </button>
+            <button class="arrow arrow-next">
+              <img src="icons/arrow.png" alt="arrow" />
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="movies container">
+        <div class="title">
+          <div class="title-line"></div>
+          <h2>Фильмы</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="movies__inner">
+          <!--  -->
+        </div>
+      </section>
+    </div>
+    <div class="modal">
+      <div class="modal__content">
+        <button class="cross">&times;</button>
+        <h2>Хотите купить билет на новый фильм по скидке?</h2>
+        <img src="icons/reclam.png" alt="reclam" class="reclam" />
+        <div class="btns">
+          <button class="accept">Да, хочу</button>
+          <button class="cancel">Нет</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
